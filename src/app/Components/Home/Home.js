@@ -5,6 +5,7 @@ import AnalyticFeature from './AnalyticFeatures/AnalyticFeature'
 import Feature from './Features/Feature'
 import Review from './Review/Review'
 import Price from './Price/Price'
+import Offer from './Offer/Offer'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Feature />
       <Review />
       <Price />
+      <Offer />
     </div>
   )
 }
