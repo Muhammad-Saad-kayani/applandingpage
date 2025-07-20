@@ -7,10 +7,10 @@ const Price = () => {
       <h2 className='mt-6 text-2xl md:text-3xl capitalize font-bold text-center '>
         Meet Exciting Pricing Plans</h2>
         <div className=' mt-20 grid w-[90%] mx-auto grid-cols-1 lg:grid-cols-2 md:w-[80%] gap-10'>
-            <div>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <PriceCard price={15} plan="Starter"/>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
                 <PriceCard price={45} plan="Business"/>
             </div>
         </div>

@@ -7,7 +7,7 @@ const AnalyticFeature = () => {
     <div className='pt-24 pb-16'>
       <div className='w-[95%] sm:w-[80%] mx-auto items-center grid grid-cols-1 lg:grid-cols-2 gap-10'>
 
-        <div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center">
             <Image 
                 src="/images/a.jpg"
                 alt="image"

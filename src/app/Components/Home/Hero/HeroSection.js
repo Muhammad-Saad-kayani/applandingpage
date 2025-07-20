@@ -16,7 +16,7 @@ const HeroSection = () => {
                             </div>
                             <p className='text-xs sm:text-sm font-bold'>We have Updated Out Terms And Contitions Policy</p>
                         </div>
-                        <h1 className='text-2xl sm:text-4xl md:text-5xl mt-6 mb-6 font-bold
+                        <h1 data-aos="fade-up" className='text-2xl sm:text-4xl md:text-5xl mt-6 mb-6 font-bold
                         md:leading-[3rem] lg:leading-[3.5rem] '>The Premiure Work Companian For Your Need</h1>
                         <p className='text-gray-700'>Ad voluptate cupidatat veniam ullamco ullamco sint.
                          Non duis consequat eu irure veniam cupidatat magna consequat dolore anim aliqua.
@@ -39,7 +39,7 @@ const HeroSection = () => {
                          </div>
                     </div>
                     {/* Image Content */}
-                    <div className='hidden lg:block'>
+                    <div data-aos="fade-up" data-aos-delay="200" className='hidden lg:block'>
                         <Image src="/images/hero.png" alt='hero' width={700} height={700} />
                     </div>
 
